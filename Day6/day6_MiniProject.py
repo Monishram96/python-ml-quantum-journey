@@ -26,9 +26,9 @@ def play_game(max_number):
             guess = int(input("Your guess: "))
             attempts += 1
             if guess < target:
-                print("Too low ⬇️")
+                print("Too low ")
             elif guess > target:
-                print("Too high ⬆️")
+                print("Too high ")
             else:
                 print(f"Correct! You guessed in {attempts} attempts 🎉")
                 return attempts
