@@ -54,22 +54,20 @@ def is_prime():
             return
     print(n, "is prime")
 
-    if __name__ == "__main__":
-        print("Choose: 1.Table 2.Sum(for) 3.Sum(while) 4.Factorial 5.Skip-even 6.Prime 7.Exit")
-        ch = input("Enter choice (1-7): ").strip()
-        if ch == "1":
-            multiplication_table()
-        elif ch == "2":
-            sum_first_n_for()
-        elif ch == "3":
-            sum_first_n_while()
-        elif ch == "4":
-            factorial()
-        elif ch == "5":
-            skip_even_demo()
-        elif ch == "6":
-            is_prime()
-        elif ch == "7":
-            print("Exite")
-        else:
-            print("Invalid choice")
+if __name__ == "__main__":
+    print("Choose: 1.Table 2.Sum(for) 3.Sum(while) 4.Factorial 5.Skip-even 6.Prime")
+    ch = input("Enter choice (1-6): ").strip()
+    if ch == "1":
+        multiplication_table()
+    elif ch == "2":
+        sum_first_n_for()
+    elif ch == "3":
+        sum_first_n_while()
+    elif ch == "4":
+        factorial()
+    elif ch == "5":
+        skip_even_demo()
+    elif ch == "6":
+        is_prime()
+    else:
+        print("Invalid choice")
