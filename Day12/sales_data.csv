@@ -1,0 +1,9 @@
+Date,Product,Region,Sales,Profit
+2025-09-01,Laptop,North,1000,200
+2025-09-02,Mouse,South,150,50
+2025-09-03,Keyboard,East,200,80
+2025-09-04,Monitor,West,500,120
+2025-09-05,Laptop,East,900,180
+2025-09-06,Mouse,North,100,30
+2025-09-07,Monitor,South,,90
+2025-09-08,Keyboard,West,250,
