@@ -1,0 +1,9 @@
+Date,Product,Region,Sales,Profit,Profit Margin %
+2025-09-01,Laptop,North,1000.0,200.0,20.0
+2025-09-02,Mouse,South,150.0,50.0,33.33
+2025-09-03,Keyboard,East,200.0,80.0,40.0
+2025-09-04,Monitor,West,500.0,120.0,24.0
+2025-09-05,Laptop,East,900.0,180.0,20.0
+2025-09-06,Mouse,North,100.0,30.0,30.0
+2025-09-07,Monitor,South,0.0,90.0,0.0
+2025-09-08,Keyboard,West,250.0,107.14,42.86
